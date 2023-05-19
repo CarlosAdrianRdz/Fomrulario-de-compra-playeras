@@ -1,0 +1,41 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.FormularioDeCompra {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.FormularioDeCompra label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.FormularioDeCompra input[type="text"],
+.FormularioDeCompra input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.FormularioDeCompra button {
+    background-color:#a04545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.FormularioDeCompra button:hover {
+    background-color:  #4CAF50;
+}
